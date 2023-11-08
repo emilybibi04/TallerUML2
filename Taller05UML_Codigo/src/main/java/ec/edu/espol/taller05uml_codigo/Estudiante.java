@@ -4,10 +4,35 @@
  */
 package ec.edu.espol.taller05uml_codigo;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author CltControl
  */
 public class Estudiante {
+    private ArrayList<Curso> cursosInscritos = new ArrayList();
+    private ArrayList<Curso> cursosEnEsperaDeInscripcion = new ArrayList();
+    
+    public void solicitarInscripcion(Curso curso){
+        
+    }
+    
+    public void realizarActividadSumativa(Curso curso, ActividadSumativa actividadSumativa){
+        
+    }
+
+    public Estudiante() {
+    }
+
+    public ArrayList<Curso> getCursosInscritos() {
+        return cursosInscritos;
+    }
+
+    public ArrayList<Curso> getCursosEnEsperaDeInscripcion() {
+        return cursosEnEsperaDeInscripcion;
+    }
+    
+    
     
 }
