@@ -4,10 +4,26 @@
  */
 package ec.edu.espol.taller05uml_codigo;
 
+import java.util.Date;
+
 /**
  *
  * @author CltControl
  */
-public class Tarea {
+public class Tarea extends ActividadSumativa{
+    private DateTime fechadePubliacion;
+
+     public void setFechadePubliacion(DateTime fechadePubliacion) {
+        this.fechadePubliacion = fechadePubliacion;
+    }
+    public Tarea(DateTime fechadePubliacion) {
+        this.fechadePubliacion = fechadePubliacion;
+    }
+
+    public Date getFechadePubliacion() {
+        return fechadePubliacion;
+    }
+
+   
     
 }

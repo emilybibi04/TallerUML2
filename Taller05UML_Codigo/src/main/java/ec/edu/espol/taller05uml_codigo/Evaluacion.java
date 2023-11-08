@@ -9,5 +9,18 @@ package ec.edu.espol.taller05uml_codigo;
  * @author CltControl
  */
 public class Evaluacion {
+    private int limitedeTiempo;
+
+    public Evaluacion(int limitedeTiempo) {
+        this.limitedeTiempo = limitedeTiempo;
+    }
+
+    public int getLimitedeTiempo() {
+        return limitedeTiempo;
+    }
+
+    public void setLimitedeTiempo(int limitedeTiempo) {
+        this.limitedeTiempo = limitedeTiempo;
+    }
     
 }
