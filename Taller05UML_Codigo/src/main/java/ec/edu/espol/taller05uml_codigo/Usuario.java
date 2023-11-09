@@ -15,7 +15,7 @@ public class Usuario {
     protected String contraseña;
     protected String nombre;
     protected String apellido;
-    public ArrayList<Incidente> incidentes = new ArrayList();
+    public ArrayList<Inicidente> incidentes = new ArrayList();
     protected boolean login(){
         
         return true;
@@ -64,11 +64,11 @@ public class Usuario {
         this.apellido = apellido;
     }
 
-    public ArrayList<Incidente> getIncidentes() {
+    public ArrayList<Inicidente> getIncidentes() {
         return incidentes;
     }
 
-    public void setIncidentes(ArrayList<Incidente> incidentes) {
+    public void setIncidentes(ArrayList<Inicidente> incidentes) {
         this.incidentes = incidentes;
     }
     

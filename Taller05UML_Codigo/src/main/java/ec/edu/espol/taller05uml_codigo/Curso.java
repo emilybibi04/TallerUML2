@@ -42,5 +42,9 @@ public class Curso {
     public void setEstadoDisponible(boolean estadoDisponible) {
         this.estadoDisponible = estadoDisponible;
     }
+
+    public Curso() {
+    }
+    
     
 }

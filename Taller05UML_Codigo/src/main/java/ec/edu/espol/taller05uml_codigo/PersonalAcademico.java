@@ -4,10 +4,32 @@
  */
 package ec.edu.espol.taller05uml_codigo;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author CltControl
  */
 public class PersonalAcademico {
+    protected ArrayList<Inicidente> indicentes = new ArrayList();
+    
+    public void reportarError(String email, String contenido){
+        
+    }
+    
+    public void solicitarAsesoramientoDelSistema(String email, String contenido){
+        
+    }
+    
+    public void comentarEnForo(Foro foro, String comentario){
+        
+    }
+
+    public PersonalAcademico(String usuario, String contraseña, String nombre, String apellido) {
+        super();
+    }
+
+    public PersonalAcademico() {
+    }
     
 }
